@@ -1,0 +1,30 @@
+Package: IDOL
+Title: IDentifying Optimal DNA methylation Libraries (IDOL)
+Version: 0.0.0.9000
+Date: 2018-03-07
+Authors@R: c(person(c("Devin", "C."), "Koestler", role = c("cre", "aut"),
+        email = "dkoestler@kumc.edu"), person(c("Lucas", "A."),
+        "Salas", role = c("aut"),
+        email = "lucas.a.salas.diaz@dartmouth.edu"))
+Maintainer: Devin C. Koestler <dkoestler@kumc.edu>
+Description: This package contains the functions required for 
+            IDentifying Optimal DNA methylation Libraries (IDOL) as in Koestler
+            et al. 2016
+Depends: R (>= 3.4.3)
+License: GNU General Public License v.3.0
+Encoding: UTF-8
+LazyData: true
+biocViews: ExperimentData, Homo_sapiens_Data, Tissue, MicroarrayData,
+        TissueMicroarrayData, MethylationArrayData, DNASeqData
+NeedsCompilation: no
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
+RoxygenNote: 6.0.1
+URL: https://github.com/immunomethylomics/IDOL
+BugReports: https://github.com/immunomethylomics/IDOL/issues
+Imports: minfi,
+        quadprog,
+        genefilter,
+        doParallel,
+        RColorBrewer

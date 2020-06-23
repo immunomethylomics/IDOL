@@ -1,7 +1,10 @@
 # IDOL
 IDentifying Optimal DNA methylation Libraries (IDOL)
 
-Installation
+#Installation
+
 devtools::install_github("immunomethylomics/IDOL")
+
 library(IDOL)
+
 ?IDOLOptimize

@@ -7,4 +7,4 @@ devtools::install_github("immunomethylomics/IDOL")
 
 library(IDOL)
 
-?IDOLOptimize
+?IDOLoptimize
